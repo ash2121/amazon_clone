@@ -25,10 +25,7 @@ class MyApp extends StatelessWidget {
             iconTheme: IconThemeData(color: Colors.black)),
       ),
       onGenerateRoute: ((settings) => generateRoute(settings)),
-      home: Scaffold(
-        // appBar: AppBar(
-        //   title: const Text("Amazon clone"),
-        // ),
+      home: const Scaffold(
         body: AuthScreen(),
       ),
     );
